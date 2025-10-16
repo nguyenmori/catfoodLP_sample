@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>子猫専用キャットフード『Mew Jewel』</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Sans JP", sans-serif;
+      background-color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    h1{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .section {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .cta-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .cta-container img {
+      width: 100%;
+      display: block;
+    }
+
+    
+    .hero-button-wrapper {
+      position: absolute;
+      bottom: 6%; /* 背景画像の下部に配置 */
+      left: 9%;
+      transform: translateX(-4%);
+      display: flex;
+      gap: 20px;
+      z-index: 2;
+    }
+
+    .hero-btn {
+      width: 140px;
+      height: auto;
+      transition: transform 0.3s ease;
+      animation: poyon-bounce 2s ease-out infinite;
+    }
+
+
+    .hero-btn:hover {
+      transform: scale(1.05);
+    }
+
+    /* ぽよんアニメーションのキーフレーム定義 */
+    @keyframes poyon-bounce {
+      0% {
+        transform: translateY(0) scale(1);
+      }
+      50% {
+        transform: translateY(-2px) scale(1.01);
+      }
+      70% {
+        transform: translateY(0) scale(0.98);
+      }
+      85% {
+        transform: translateY(-2px) scale(1.01);
+      }
+      100% {
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .image-container{
+      position: relative;
+      width: 100%;
+    }
+
+    .text{
+      position: absolute;
+      top:-2%; /* 背景画像の下部に配置 */
+      left: 35%;
+    }
+
+    .image-container .text {
+      display: block;
+      width: 30%;
+    }
+.hero-slider-wrapper {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.slider-track {
+  display: flex;
+  gap: 30px;
+  animation: scroll-left 25s linear infinite;
+}
+
+.slider-track img {
+  width: 80%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0px 1px 10px 1px rgba(0,50,14,10%);
+}
+
+/* 自動横スクロールアニメーション */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-255%);
+  }
+}
+
+.footer{
+  background-color: #669c68;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer small{
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="section">
+    <!-- FV -->
+    <h1><img src="img/FV2x.png" alt="Mew Jewel"></h1>
+    <!-- CTA -->
+     <div class="cta-container">
+      <img src="img/CTA2x.jpg" alt="CTA">
+      <div class="hero-button-wrapper">
+        <a href="#"><img src="img/CTA2x.png" alt="お得な定期コースに申し込む"  class="hero-btn"></a>
+      </div>
+     </div>
+    <!-- 累計-->
+    <img src="img/累計100万袋2x.jpg" alt="累計" style="margin-top: -10px;">
+    <!-- 権威性 -->
+    <div class="image-container">
+      <img src="img/権威性や実績2x.jpg" alt="権威性と実績" style="margin-top: -30px;">
+    <!-- スライダー -->
+      <div class="hero-slider-wrapper">
+        <div class="slider-track">
+      <img src="img/写真１2x.png" alt="写真1">
+      <img src="img/写真２2x.png" alt="写真2">
+      <img src="img/写真３2x.png" alt="写真3">
+      <img src="img/写真１2x.png" alt="写真1">
+      <img src="img/写真２2x.png" alt="写真2">
+      <img src="img/写真３2x.png" alt="写真3">
+    </div>
+      </div>
+    </div>
+    <!-- お悩み -->
+    <img src="img/お悩み2x.jpg" alt="お悩み">
+    <!-- 問題解決 -->
+     <div class="image-container">
+      <img src="img/その悩み2x.png" alt="その悩み" class="text">
+      <img src="img/解決2x.jpg" alt="解決" style="margin-bottom: -20px;" > 
+     </div>
+    <!-- 商品特徴 -->
+    <img src="img/商品特徴・成分2x.jpg" alt="商品特徴・成分">
+    <!-- 医師の声 -->
+    <img src="img/医師の声2x.jpg" alt="医師の声" 
+    style="margin-bottom: -10px;" >
+    <!-- お客様の声 -->
+    <img src="img/お客様の声2x.jpg" alt="お客様の声">
+    <!-- よくある質問 -->
+    <img src="img/Q&A2x.jpg" alt="Q&A">
+    <!-- 4大特典 -->
+    <img src="img/4大特典2x.jpg" alt="特典">
+        <!-- CTA -->
+     <div class="cta-container">
+      <img src="img/CTA2x.jpg" alt="CTA">
+      <div class="hero-button-wrapper">
+        <a href="#"><img src="img/CTA2x.png" alt="お得な定期コースに申し込む"  class="hero-btn"></a>
+      </div>
+     </div>
+  </div>
+  <footer class="footer">
+    <small>© 2025 Mew Jewel</small>
+  </footer>
+</body>
+</html>
